@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: butterflyeric/hafya-backend
+    repository: butterfly06/hafya-backend
     #tag: "1.2365.1"
     pullPolicy: IfNotPresent
   replicas: 1
@@ -9,7 +9,7 @@ backend:
 
 frontend:
   image:
-    repository: butterflyeric/hafya-frontend
+    repository: butterfly06/hafya-frontend
    # tag: "latest"
     pullPolicy: IfNotPresent
   replicas: 1
