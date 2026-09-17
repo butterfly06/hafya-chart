@@ -1,3 +1,14 @@
 apiVersion: v1
-entries: {}
-generated: "2026-09-17T14:10:06.710501733+02:00"
+entries:
+  hafya:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-09-17T14:10:21.852894613+02:00"
+    description: Helm chart pour l'application Hafya (backend, frontend, postgres)
+    digest: 00f843dc42b61f8a0ed13c8cc907c797207a203f917b78b379d26f0ba7c6ec09
+    name: hafya
+    type: application
+    urls:
+    - https://butterfly06.github.io/hafya-chart/hafya-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-09-17T14:10:21.825507427+02:00"
