@@ -1,0 +1,29 @@
+backend:
+  image:
+    repository: butterflyeric/hafya-backend
+    #tag: "1.2365.1"
+    pullPolicy: IfNotPresent
+  replicas: 1
+  port: 5001
+  nodePort: 30081
+
+frontend:
+  image:
+    repository: butterflyeric/hafya-frontend
+   # tag: "latest"
+    pullPolicy: IfNotPresent
+  replicas: 1
+  port: 4200
+  nodePort: 30080
+
+postgres:
+  image: postgres:16
+  storage: 1Gi
+  port: 5432
+
+secrets:
+  postgresUser: hafya_user
+  postgresPassword: changeme123
+  postgresDb: hafya_db
+
+imagePullSecret: dockerhub-secret
