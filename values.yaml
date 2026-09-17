@@ -1,8 +1,8 @@
 backend:
   image:
     repository: butterfly06/hafya-backend
-    #tag: "1.2365.1"
-    pullPolicy: IfNotPresent
+    tag: "latest"
+    pullPolicy: Always
   replicas: 1
   port: 5001
   nodePort: 30081
@@ -10,8 +10,8 @@ backend:
 frontend:
   image:
     repository: butterfly06/hafya-frontend
-   # tag: "latest"
-    pullPolicy: IfNotPresent
+    tag: "latest"
+    pullPolicy: Always
   replicas: 1
   port: 4200
   nodePort: 30080
