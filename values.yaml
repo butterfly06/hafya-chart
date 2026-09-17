@@ -1,6 +1,6 @@
 backend:
   image:
-    repository: butterfly06/hafya-backend
+    repository: butterflyeric/hafya-backend
     tag: "latest"
     pullPolicy: Always
   replicas: 1
@@ -9,7 +9,7 @@ backend:
 
 frontend:
   image:
-    repository: butterfly06/hafya-frontend
+    repository: butterflyeric/hafya-frontend
     tag: "latest"
     pullPolicy: Always
   replicas: 1
